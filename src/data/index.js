@@ -1,4 +1,4 @@
-import { RiCss3Fill } from "@remixicon/react"
+import { RiCompass3Fill } from "react-icons/ri"
 import { SiGit, SiGithub, SiHtml5, SiJavascript, SiReact, SiTailwindcss } from "react-icons/si"
 import { VscVscode } from "react-icons/vsc"
 
@@ -6,7 +6,7 @@ import { VscVscode } from "react-icons/vsc"
 export const profile = {
     name: "Avinash Prasad",
     title: "Frontend Developer",
-    tagline: "I turn ideas into clean, functional web experiences",
+    tagline: "I turn ideas into clean, functional web experiences.",
     status: "Open to work",
     statusActive: true,
     email: "avinashprasad.dev@gmail.com",
@@ -20,7 +20,7 @@ export const stack = [
     {name : "React.js", icon: SiReact, color: "#61DAFB"},
     { name: "JavaScript",  icon: SiJavascript,         color: "#F7DF1E" },
   { name: "HTML5",       icon: SiHtml5,              color: "#E34F26" },
-  { name: "CSS3",        icon: RiCss3Fill,               color: "#1572B6" },
+  { name: "CSS3",        icon: RiCompass3Fill,               color: "#1572B6" },
   { name: "Tailwind",    icon: SiTailwindcss,        color: "#38BDF8" },
   { name: "Git",         icon: SiGit,                color: "#F05032" },
   { name: "GitHub",      icon: SiGithub,             color: "#181717" },

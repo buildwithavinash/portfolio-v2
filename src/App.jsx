@@ -1,9 +1,11 @@
 import Navbar from "./components/Navbar"
+import Profile from "./components/Profile"
 
 const App = () => {
   return (
-    <div className="max-w-4xl mx-auto px-4 md:px-6">
+    <div className="max-w-xl bg-slate-200 mx-auto px-4 md:px-6">
         <Navbar />
+        <Profile />
     </div>
   )
 }

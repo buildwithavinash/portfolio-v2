@@ -6,11 +6,11 @@ const Projects = () => {
     <section id="projects" className="py-20">
 
             <Container>
-                <h2 className="text-3xl font-medium text-(--black-100)">Projects</h2>
+                <h2 className="text-3xl text-center font-medium text-(--black-100)">Projects</h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6 p-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 p-2">
                     {projects.map((project)=>(
-                        <div key={project.id} className="flex flex-col border border-(--white-60) rounded-xl overflow-hidden gap-1 p-2 hover:shadow-xl hover:-translate-y-1 transition-all duration-200">
+                        <div key={project.id} className="flex flex-col border border-slate-300 rounded-xl overflow-hidden gap-1 p-2 hover:shadow-xl hover:-translate-y-1 transition-all duration-200">
                             {/* image */}
                             <div className="h-60 md:h-40 overflow-hidden bg-zinc-200 border rounded-xl border-slate-300">
                                 <img src={project.img} alt={project.name} className="w-full h-full object-contain hover:scale-[1.1] transition-all duration-200" />

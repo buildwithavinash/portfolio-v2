@@ -14,7 +14,7 @@ const Hero = () => {
 
                 <div className="text-center mt-4 mb-2 flex flex-col items-center justify-center">
                     <h1 className="text-4xl md:text-7xl font-semibold text-zinc-800 mb-1">{profile.name}</h1>
-                    <p className="text-zinc-600 font-medium text-sm md:text-lg mb-3">{profile.title}</p>
+                    <p className="text-zinc-600 font-medium font-mono text-sm md:text-lg mb-3">{profile.title}</p>
                     <p className="text-zinc-800 leading-tight max-w-120 md:text-xl text-center ">{profile.tagline}</p>
                 </div>
 

@@ -10,14 +10,14 @@ const Skills = () => {
             Skills
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 p-2">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 p-2">
             {/* front end */}
             <div className="border p-2 rounded-md border-slate-300">
               <p className="text-xl font-semibold text-zinc-700">Frontend</p>
 
               <div className="flex flex-wrap gap-2 mt-4">
                 {stack.frontend.map((skill) => (
-                  <div key={skill} className="border rounded-xl px-2 py-1 border-zinc-300 text-sm hover:bg-(--accent) hover:text-white cursor-pointer transition-all duration-200">
+                  <div key={skill} className="border font-mono rounded-xl px-2 py-1 border-zinc-300 text-sm hover:bg-(--accent) hover:text-white cursor-pointer transition-all duration-200">
                     {skill}
                   </div>
                 ))}
@@ -30,7 +30,7 @@ const Skills = () => {
 
               <div className="flex flex-wrap gap-2 mt-4">
                 {stack.backend.map((skill) => (
-                  <div key={skill} className="border rounded-full px-2 py-1 border-zinc-300 text-sm hover:bg-(--accent) hover:text-(--white-90) cursor-pointer transition-all duration-200">
+                  <div key={skill} className="border font-mono rounded-full px-2 py-1 border-zinc-300 text-sm hover:bg-(--accent) hover:text-(--white-90) cursor-pointer transition-all duration-200">
                     {skill}
                   </div>
                 ))}
@@ -43,7 +43,7 @@ const Skills = () => {
 
               <div className="flex flex-wrap gap-2 mt-4">
                 {stack.tools.map((skill) => (
-                  <div key={skill} className="border rounded-xl px-2 py-1 border-zinc-300 text-sm hover:bg-(--accent) hover:text-white cursor-pointer transition-all duration-200">
+                  <div key={skill} className="border font-mono rounded-xl px-2 py-1 border-zinc-300 text-sm hover:bg-(--accent) hover:text-white cursor-pointer transition-all duration-200">
                     {skill}
                   </div>
                 ))}

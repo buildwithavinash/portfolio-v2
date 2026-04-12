@@ -2,7 +2,7 @@ import Container from "../layout/Container"
 
 const About = () => {
   return (
-    <section className="py-16">
+    <section className="py-20">
         <Container>
             <div className="max-w-xl mx-auto">
                 <div>
@@ -19,8 +19,8 @@ const About = () => {
                     </p>
 
                     <p className="leading-relaxed text-zinc-800">
-                        Currently, I’m looking for <mark className="bg-green-400">opportunities</mark> to grow, collaborate, and
-            contribute to real-world projects.
+                        Currently, I’m looking for <mark className="bg-green-400">opportunities to grow, collaborate, and
+            contribute</mark> to real-world projects.
                     </p>
                 </div>
             </div>

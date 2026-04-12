@@ -25,7 +25,7 @@ export const profile = {
 // stack
 export const stack = {
   frontend: ["React.js", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
-  backend: ["REST Apis"],
+  backend: ["REST Api"],
   tools: ["Git", "Github", "VS Code", "Chrome DevTools"],
 };
 

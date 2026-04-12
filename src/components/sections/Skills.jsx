@@ -3,7 +3,7 @@ import Container from "../layout/Container"
 
 const Skills = () => {
   return (
-    <section>
+    <section className="py-20">
         <Container>
             <div>
                 <h2>Skills</h2>

@@ -28,7 +28,7 @@ export const projects = [
     {
     id:          1,
     name:        "SplitSmart",
-    img: `../../public/splitsmart.png`,
+    img: `/splitsmart.png`,
     description: "Group expense splitting app with a greedy settlement algorithm that minimises total transactions needed to clear all debts.",
     tags:        ["React.js", "JavaScript", "Tailwind CSS"],
     github:      "https://github.com/yourusername/splitsmart",
@@ -38,7 +38,7 @@ export const projects = [
   {
     id:          2,
     name:        "CoverCraftAI",
-    img: `../../public/covercraft.png`,
+    img: `/covercraft.png`,
     description: "AI-powered app that generates personalised cover letters and cold emails from job descriptions using Groq API (Llama 3.3 70B).",
     tags:        ["React.js", "Groq API", "Tailwind CSS"],
     github:      "https://github.com/yourusername/covercraftai",

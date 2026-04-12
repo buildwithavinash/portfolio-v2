@@ -18,8 +18,8 @@ export const profile = {
   status: "Open to work",
   statusActive: true,
   email: "avinashprasad.dev@gmail.com",
-  github: "https://github.com/yourusername",
-  linkedIn: "https://linkedin.com/in/yourusername",
+  github: "https://github.com/buildwithavinash",
+  linkedIn: "https://www.linkedin.com/in/avinash-prasad-dev",
 };
 
 // stack

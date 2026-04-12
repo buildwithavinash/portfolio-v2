@@ -6,9 +6,9 @@ const Projects = () => {
     <section id="projects" className="py-20">
 
             <Container>
-                <h2 className="text-3xl text-center font-medium text-(--black-100)">Projects</h2>
+                <h2 className="text-3xl md:text-5xl text-center font-semibold text-zinc-800">Projects</h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 p-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 p-2">
                     {projects.map((project)=>(
                         <div key={project.id} className="flex flex-col border border-slate-300 rounded-xl overflow-hidden gap-1 p-2 hover:shadow-xl hover:-translate-y-1 transition-all duration-200">
                             {/* image */}

@@ -13,7 +13,7 @@ const Navbar = () => {
 
           <div className="flex items-center gap-1 md:gap-4">
             <button className="text-xl cursor-pointer hover:bg-zinc-200 p-1 rounded-md transition-all duration-200"><CiDark /></button>
-            <a href="" className="bg-(--accent) text-white px-2 py-1 rounded-md font-semibold hover:opacity-80 active:scale-[0.95] transition-all duration-200">Resume</a>
+            <a href="" className="bg-(--accent) text-white px-2 py-1 rounded-md font-semibold hover:opacity-80 active:scale-[0.95] transition-all duration-200 font-mono">Resume</a>
           </div>
         </nav>
         </div>

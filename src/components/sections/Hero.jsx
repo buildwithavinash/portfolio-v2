@@ -5,19 +5,25 @@ import { MdOutlineMail } from "react-icons/md"
 
 const Hero = () => {
   return (
-    <section className="bg-(--white-100) py-20 min-h-[90vh] flex justify-center items-center">
+    <section className="bg-(--white-100) pt-36 pb-16 min-h-[90vh] flex justify-center items-center">
         <Container>
             <div className="flex flex-col items-center justify-center">
-                <div className="text-center text-xs w-fit p-1 shadow-md bg-green-400 rounded-full px-2 ">
-                    <p className="">{profile.status}</p>
+                <div className="text-center text-xs w-fit p-1 shadow-md bg-green-400 rounded-full px-2 md:px-3">
+                    <p className="font-mono">{profile.status}</p>
                 </div>
 
-                <div className="text-center mt-4 flex flex-col items-center justify-center">
-                    <h1 className="text-4xl md:text-6xl font-bold text-(--black-100) mb-1">{profile.name}</h1>
-                    <p className="text-(--black-80) text-sm md:text-base mb-2">{profile.title}</p>
-                    <p className="text-(--black-90) leading-tight max-w-90 text-center ">{profile.tagline}</p>
+                <div className="text-center mt-4 mb-2 flex flex-col items-center justify-center">
+                    <h1 className="text-4xl md:text-7xl font-semibold text-zinc-800 mb-1">{profile.name}</h1>
+                    <p className="text-zinc-600 font-medium text-sm md:text-lg mb-3">{profile.title}</p>
+                    <p className="text-zinc-800 leading-tight max-w-120 md:text-xl text-center ">{profile.tagline}</p>
                 </div>
 
+
+  {/* actions */}
+                <div className="flex font-mono gap-2 justify-center my-4 md:text-xl">
+                    <a href="#projects" className="bg-(--accent) px-3 py-1 rounded-md text-(--white-90) font-semibold hover:opacity-90 transition-all duration-200">View Work</a>
+                    {/* <a href="#" className="border border-(--accent) px-3 py-1 font-semibold rounded-md hover:bg-(--accent) hover:text-(--white-90) transition-all duration-200">Hire Me</a> */}
+                </div>
 
                     {/* socials */}
                     <div className="flex gap-2 text-xl mt-3 items-center">
@@ -28,11 +34,7 @@ const Hero = () => {
 
 
 
-                    {/* actions */}
-                <div className="flex gap-2 justify-center mt-4">
-                    <a href="#" className="bg-(--accent) px-3 py-1 rounded-md text-(--white-90) font-semibold hover:opacity-90 transition-all duration-200">View Work</a>
-                    {/* <a href="#" className="border border-(--accent) px-3 py-1 font-semibold rounded-md hover:bg-(--accent) hover:text-(--white-90) transition-all duration-200">Hire Me</a> */}
-                </div>
+                  
             </div>
         </Container>
     </section>

@@ -30,7 +30,7 @@ const Projects = () => {
                                 <div className="flex flex-wrap gap-2 my-3">
                                     {project.tags.map((tag)=>{
                                         return (
-                                            <div className="bg-slate-200 p-1 rounded-md font-mono text-xs">{tag}</div>
+                                            <div key={tag} className="bg-slate-200 p-1 rounded-md font-mono text-xs">{tag}</div>
                                         )
                                     })}
                                 </div>

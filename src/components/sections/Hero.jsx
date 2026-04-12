@@ -12,10 +12,10 @@ const Hero = () => {
                     <p className="">{profile.status}</p>
                 </div>
 
-                <div className="text-center mt-4">
-                    <h1 className="text-4xl font-bold text-(--black-100) mb-1">{profile.name}</h1>
-                    <p className="text-(--black-80) text-sm mb-2">{profile.title}</p>
-                    <p className="text-(--black-90) ">{profile.tagline}</p>
+                <div className="text-center mt-4 flex flex-col items-center justify-center">
+                    <h1 className="text-4xl md:text-6xl font-bold text-(--black-100) mb-1">{profile.name}</h1>
+                    <p className="text-(--black-80) text-sm md:text-base mb-2">{profile.title}</p>
+                    <p className="text-(--black-90) leading-tight max-w-90 text-center ">{profile.tagline}</p>
                 </div>
 
 

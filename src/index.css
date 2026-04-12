@@ -15,3 +15,8 @@
 
     --accent: #3171C6;
 }
+
+::selection {
+  background: #DBEAFE;
+  color: #1D4ED8;
+}

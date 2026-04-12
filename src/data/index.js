@@ -17,16 +17,11 @@ export const profile = {
 
 
 // stack
-export const stack = [
-    {name : "React.js", icon: SiReact, color: "#61DAFB"},
-    { name: "JavaScript",  icon: SiJavascript,         color: "#F7DF1E" },
-  { name: "HTML5",       icon: SiHtml5,              color: "#E34F26" },
-  { name: "CSS3",        icon: RiCompass3Fill,               color: "#1572B6" },
-  { name: "Tailwind",    icon: SiTailwindcss,        color: "#38BDF8" },
-  { name: "Git",         icon: SiGit,                color: "#F05032" },
-  { name: "GitHub",      icon: SiGithub,             color: "#181717" },
-  { name: "VS Code",     icon: VscVscode,   color: "#007ACC" },
-]
+export const stack = {
+  frontend: ["React.js", "Tailwind CSS", "JavaScript", "HTML", "CSS" ],
+  backend: ["REST Apis"],
+  tools: ["Git", "Github", "VS Code", "Chrome DevTools"]
+}
 
 // Projects
 export const projects = [

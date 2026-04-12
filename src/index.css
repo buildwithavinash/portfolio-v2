@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+:root {
+    --white-100: #FFFFFF;
+    --white-90: #F0F1F5;
+    --white-80: #E0E4E8;
+    --white-70: #D1D6E0;
+    --white-60: #BFC6D4;
+
+    --black-100: #0A0E15;
+    --black-90: #212631;
+    --black-80: #373F4E;
+    --black-70: #4E576A;
+    --black-60: #667085;
+
+    --accent: #3171C6;
+}

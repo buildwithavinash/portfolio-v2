@@ -6,7 +6,8 @@ import { VscVscode } from "react-icons/vsc"
 export const profile = {
     name: "Avinash Prasad",
     title: "Frontend Developer",
-    tagline: "I turn ideas into clean, functional web experiences.",
+    tagline: `I build clean, functional web apps with a focus on usability,
+            clarity, and maintainable code.`,
     status: "Open to work",
     statusActive: true,
     email: "avinashprasad.dev@gmail.com",

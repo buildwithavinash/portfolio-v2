@@ -38,8 +38,8 @@ export const projects = [
     description:
       "Group expense splitting app with a greedy settlement algorithm that minimises total transactions needed to clear all debts.",
     tags: ["React.js", "JavaScript", "Tailwind CSS"],
-    github: "https://github.com/yourusername/splitsmart",
-    live: "https://splitsmart.vercel.app",
+    github: "https://github.com/buildwithavinash/split-smart",
+    live: "https://split-smart-sigma.vercel.app",
     year: "2026",
   },
   {
@@ -49,8 +49,8 @@ export const projects = [
     description:
       "AI-powered app that generates personalised cover letters and cold emails from job descriptions using Groq API (Llama 3.3 70B).",
     tags: ["React.js", "Groq API", "Tailwind CSS"],
-    github: "https://github.com/yourusername/covercraftai",
-    live: "https://covercraftai.vercel.app",
+    github: "https://github.com/buildwithavinash/cover-craft-ai",
+    live: "https://cover-craft-ai.vercel.app",
     year: "2026",
   },
 ];

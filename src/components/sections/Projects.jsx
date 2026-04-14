@@ -10,9 +10,9 @@ const Projects = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 p-2">
                     {projects.map((project)=>(
-                        <div key={project.id} className="flex flex-col border border-slate-300 rounded-xl overflow-hidden gap-1 p-2 hover:shadow-xl hover:-translate-y-1 transition-all duration-200 cursor-pointer dark:border-zinc-800">
+                        <div key={project.id} className="flex flex-col border border-slate-300 rounded-xl overflow-hidden gap-1 p-2 hover:shadow-xl hover:-translate-y-1 transition-all duration-200 cursor-pointer dark:border-zinc-900">
                             {/* image */}
-                            <div className="h-60 md:h-40 overflow-hidden bg-zinc-200 border rounded-xl border-slate-300 dark:border-zinc-700">
+                            <div className="h-60 md:h-40 overflow-hidden bg-zinc-200 border rounded-xl border-slate-300 dark:border-zinc-800">
                                 <img src={project.img} alt={project.name} className="w-full h-full object-cover" />
                             </div>
 

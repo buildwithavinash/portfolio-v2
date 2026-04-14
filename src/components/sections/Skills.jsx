@@ -12,7 +12,7 @@ const Skills = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 p-2">
             {/* front end */}
-            <div className="border p-2 rounded-md border-slate-300 dark:border-zinc-800">
+            <div className="border py-4 px-3 rounded-md border-slate-300 dark:border-zinc-800">
               <p className="text-xl font-semibold text-zinc-700 dark:text-slate-400">Frontend</p>
 
               <div className="flex flex-wrap gap-2 mt-4">
@@ -25,7 +25,7 @@ const Skills = () => {
             </div>
 
             {/* backend */}
-            <div className="border p-2 rounded-md border-slate-300 dark:border-zinc-800">
+            <div className="border py-4 px-3 rounded-md border-slate-300 dark:border-zinc-800">
               <p className="text-xl font-semibold text-zinc-700 dark:text-slate-400">Backend</p>
 
               <div className="flex flex-wrap gap-2 mt-4">
@@ -38,7 +38,7 @@ const Skills = () => {
             </div>
 
             {/* tools */}
-            <div className="border p-2 rounded-md border-slate-300 dark:border-zinc-800">
+            <div className="border py-4 px-3 rounded-md border-slate-300 dark:border-zinc-800">
               <p className="text-xl font-semibold text-zinc-700 dark:text-slate-400">Tools</p>
 
               <div className="flex flex-wrap gap-2 mt-4">

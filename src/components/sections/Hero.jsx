@@ -2,12 +2,16 @@ import Container from "../layout/Container"
 import { profile } from "../../data"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import { MdOutlineMail } from "react-icons/md"
+import { motion } from "framer-motion"
+import { fadeUp } from "../../utils/animation"
 
 const Hero = () => {
   return (
     <section className="bg-(--white-100) dark:bg-zinc-950 pt-36 pb-16 min-h-[90vh] flex justify-center items-center">
         <Container>
-            <div className="flex flex-col items-center justify-center">
+
+            <motion.div variants={fadeUp} initial="hidden" animate="visible">
+                <div className="flex flex-col items-center justify-center">
                 <div className="text-center text-xs w-fit p-1 shadow-md bg-green-400 rounded-full text-green-900 font-medium px-2 md:px-3">
                     <p className="font-mono">{profile.status}</p>
                 </div>
@@ -21,7 +25,7 @@ const Hero = () => {
 
   {/* actions */}
                 <div className="flex font-mono gap-2 justify-center my-4 md:text-xl">
-                    <a href="#projects" className="bg-(--accent) px-3 py-1 rounded-md text-(--white-90) font-semibold hover:opacity-90 transition-all duration-200">View Work</a>
+                    <a href="#projects" className="bg-(--accent) px-3 py-1 rounded-md text-(--white-90) font-semibold hover:opacity-90 transition-all duration-200 hover:scale-105">View Work</a>
                     {/* <a href="#" className="border border-(--accent) px-3 py-1 font-semibold rounded-md hover:bg-(--accent) hover:text-(--white-90) transition-all duration-200">Hire Me</a> */}
                 </div>
 
@@ -35,7 +39,9 @@ const Hero = () => {
 
 
                   
-            </div>
+                </div>
+            </motion.div>
+            
         </Container>
     </section>
   )

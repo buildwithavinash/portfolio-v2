@@ -1,10 +1,16 @@
+import { fadeUp } from "../../utils/animation"
 import Container from "../layout/Container"
+import { motion } from "framer-motion"
 
 const About = () => {
   return (
     <section className="py-20">
         <Container>
-            <div className="max-w-xl mx-auto">
+            <motion.div variants={fadeUp}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}>
+                <div className="max-w-xl mx-auto">
                 <div>
                 <h2 className="text-3xl md:text-5xl text-center font-semibold text-zinc-800 dark:text-slate-300">About Me</h2>
                 </div>
@@ -24,6 +30,8 @@ const About = () => {
                     </p>
                 </div>
             </div>
+            </motion.div>
+            
         </Container>
     </section>
   )

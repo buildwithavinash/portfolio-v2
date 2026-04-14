@@ -8,7 +8,7 @@ const Navbar = ({theme, setTheme}) => {
 };
 
   return (
-    <header className="fixed border-b border-b-zinc-800 py-3 top-0 right-0 left-0 z-50 backdrop-blur-xl">
+    <header className="fixed border-b border-b-slate-200 dark:border-b-zinc-800 py-3 top-0 right-0 left-0 z-50 backdrop-blur-xl">
           <div className="px-3 max-w-3xl mx-auto">
         <nav className="flex justify-between items-center">
           <div className="flex gap-2 md:gap-6 text-slate-600 dark:text-slate-300">

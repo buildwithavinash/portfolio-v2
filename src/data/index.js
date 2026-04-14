@@ -24,7 +24,7 @@ export const profile = {
 
 // stack
 export const stack = {
-  frontend: ["React.js", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+  frontend: ["React.js", "React Router", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
   backend: ["REST Api"],
   tools: ["Git", "Github", "VS Code", "Chrome DevTools"],
 };
@@ -57,7 +57,5 @@ export const projects = [
 
 // currently
 export const currently = {
-  building: "My Portfolio",
-  learning: "Framer Motion",
-  reading: "The Pragmatic Programmer",
+  learning: ["Node.js", "Express", "Mongo DB"]
 };

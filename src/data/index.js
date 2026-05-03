@@ -53,6 +53,17 @@ export const projects = [
     live: "https://cover-craft-ai.vercel.app",
     year: "2026",
   },
+  {
+    id: 3,
+    name: "ApplyMate",
+    img: `/applymate.png`,
+    description:
+      "ApplyMate is a job application tracker built with React. It helps users save job applications, track their current status, search through saved roles, and view a quick dashboard summary of their progress.",
+    tags: ["React.js", "React Router", "Context API", "Tailwind CSS"],
+    github: "https://github.com/buildwithavinash/apply-mate",
+    live: "https://apply-mate-gray.vercel.app",
+    year: "2026",
+  },
 ];
 
 // currently

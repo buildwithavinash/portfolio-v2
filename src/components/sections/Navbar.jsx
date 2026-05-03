@@ -23,7 +23,7 @@ const Navbar = ({theme, setTheme}) => {
             ) : (
               <CiDark />
             )}</button>
-            <a href="/Avinash-Prasad-Frontend-Developer-Resume.pdf" target="_blank" rel="noopener noreferrer" className="bg-(--accent) text-white px-2 py-1 rounded-md font-semibold hover:opacity-80 active:scale-[0.95] transition-all duration-200 font-mono">Resume</a>
+            <a href="/Avinash-Prasad-Resume.pdf" target="_blank" rel="noopener noreferrer" className="bg-(--accent) text-white px-2 py-1 rounded-md font-semibold hover:opacity-80 active:scale-[0.95] transition-all duration-200 font-mono">Resume</a>
           </div>
         </nav>
         </div>
